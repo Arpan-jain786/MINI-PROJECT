@@ -1,6 +1,6 @@
 print("~~~~~~Welcome to inventory System~~~~~~")
 
-menu = {"chaowmene":50,
+menu = {"chawmine":50,
      "banana shake":65,
      'faluda':20,
      "kachori":10,
