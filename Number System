@@ -1,0 +1,18 @@
+print("~~~~~Numbers{Forward,reverse,vertical,horizontal}~~~~~")
+a = int(input("Enter a number : "))
+choice = int (input("0 for horizontal & 1 for forward & 2 for backword & 3 for vertical : "))
+
+if choice == 1:                         #forward
+    for i in range (1,a+1,1):
+        print(i)
+elif choice == 0:
+    for j in range (1,a+1,1):           #horizontal
+        print(j,end=' ')
+elif choice == 2:
+    for k in range (a,0,-1):            #backward
+        print(k)
+elif choice == 3:
+    for l in range (1,a+1,1):           #vertical
+        print(l)
+else:
+    print("invalid")
